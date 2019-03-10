@@ -53,7 +53,7 @@ class OAuth1FlowDialog extends AppCompatDialog {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.parse_twitter_dialog_login);
         webView = findViewById(R.id.webView);
         progress = findViewById(R.id.progress);
